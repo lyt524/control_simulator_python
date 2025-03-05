@@ -136,7 +136,6 @@ if __name__ == '__main__':
     ax1.grid(True)
     ax1.legend()
 
-    # 在第二个子图上绘制余弦函数
     ax2.plot(ki_car.x_list, ki_car.y_list, label='cos(x)', color='blue')
     ax2.plot(refer_path[:, 0], refer_path[:, 1], label='cos(x)', color='green')
     ax2.set_title('Cosine Function')
